@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "price-bot"
+version = "0.1.0"
+description = ""
+authors = ["Viktor Chernigin <chrvk@bk.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytelegrambotapi = "^4.14.0"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
